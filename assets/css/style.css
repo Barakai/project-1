@@ -1,0 +1,13 @@
+.navbar-brand{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    position: relative;
+    margin: 0 0 0 500px;
+}
+
+.jumbotron {
+    background-image: url("../images/dining\ table.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.3;
+}
