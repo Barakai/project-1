@@ -21,7 +21,15 @@ function getRecipe() {
         console.log(response);
         $(".card").attr("class", "card");
         $(".card-title").html(response.hits[0].recipe.label);
-        $(".card-text").html(response.hits[0].recipe.ingredientLines);
+        var list = $("<ul>")
+        $(".card-text").append(list)
+
+        for (var i=0; i< response.hits[0].recipe.ingredientLines.length; i++) {
+            var item = $("<li>")
+            item.html(response.hits[0].recipe.ingredientLines[i]);
+            list.append(item)
+        }
+
         $(".card-img-top").attr("src", response.hits[0].recipe.image);
         $("#recipieLink").attr("href", response.hits[0].recipe.url);
     });
