@@ -19,30 +19,49 @@
    </div>
    <div class="container">
         <div class="row" >
-            <div class = "col-md-6 "><h3 class="selections">Food</h3>
+            <div class = "col-lg-5 " id="foodborder"><h3 class="selections">Food</h3>
                 <br>
-                <input name="selector[]" id="ad_Checkbox1" class="ads_Checkbox" type="checkbox" value="chinese" />
-                <label class="form-check-label" for="ad_checkbox1">Chinese</label>
+                <p>Please select one cuisine type:</p>
+                <input name="selector" id="ad_Checkbox1" class="ads_Checkbox" type="radio" value="chinese" />
+                <label class="form-check-label">Chinese</label>
                 <br>
-                <input name="selector[]" id="ad_Checkbox2" class="ads_Checkbox" type="checkbox" value="indian" />
-                <label class="form-check-label" for="ad_checkbox2">Indian</label>
+                <input name="selector" id="ad_Checkbox2" class="ads_Checkbox" type="radio" value="indian" />
+                <label class="form-check-label">Indian</label>
                 <br>
-                <input name="selector[]" id="ad_Checkbox3" class="ads_Checkbox" type="checkbox" value="mexican" />
-                <label class="form-check-label" for="ad_checkbox3">Mexican</label>
+                <input name="selector" id="ad_Checkbox3" class="ads_Checkbox" type="radio" value="mexican" />
+                <label class="form-check-label">Mexican</label>
                 <br>
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="italian" />
-                <label class="form-check-label" for="ad_checkbox4">Italian</label>
+                <input name="selector" id="ad_Checkbox4" class="ads_Checkbox" type="radio" value="italian" />
+                <label class="form-check-label">Italian</label>
                 <br>
-                <input name="selector[]" id="ad_Checkbox5" class="ads_Checkbox" type="checkbox" value="american" />
-                <label class="form-check-label" for="ad_checkbox5">American</label>
+                <input name="selector" id="ad_Checkbox5" class="ads_Checkbox" type="radio" value="american" />
+                <label class="form-check-label">American</label>
                 <br>
                 <br>
                 <input type="button" id="save_value" name="save_value" value="Save" />
             </div>
-            <div class = "col-md-6 ">
+            <div class="col-lg-2"></div>
+            <div class = "col-lg-5 " id="drinkborder">
                 <h3 class="selections">Drink</h3>
+                <br>
+                    <p>Click me for a nice little cocktail:</p>
                     <button id="drink">Random</button>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9" id="card">
+                <div class="card remove">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary" id="recipieLink">Go somewhere</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

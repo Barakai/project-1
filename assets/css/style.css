@@ -27,3 +27,30 @@
     font-family: 'Indie Flower', cursive;
     text-align: center;
 }
+
+body {
+}
+
+#foodborder {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    float: left;
+}
+
+#drinkborder {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+
+.remove {
+    display: none;
+}
+
+#card {
+    width: 60%;
+}
