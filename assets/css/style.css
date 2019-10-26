@@ -6,8 +6,23 @@
 }
 
 .jumbotron {
-    background-image: url("../images/dining\ table.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/dining\ table.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    opacity: 0.3;
+    z-index: 0;
+    height: 374px;
+}
+
+.display-4 {
+    color: white;
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 100px;
+    top: 55px;
+    position: relative;
+}
+
+.selections {
+    font-family: 'Indie Flower', cursive;
 }
