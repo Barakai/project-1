@@ -1,8 +1,9 @@
 .navbar-brand{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Stoke', serif;
     text-align: center;
     position: relative;
     margin: 0 0 0 500px;
+    font-size: 40px;
 }
 
 .jumbotron {
@@ -21,6 +22,7 @@
     font-size: 100px;
     top: 55px;
     position: relative;
+    font-style: italic;
 }
 
 .selections {
@@ -29,6 +31,7 @@
 }
 
 body {
+    background-color: #E4ECED;
 }
 
 #foodborder {
@@ -52,5 +55,28 @@ body {
 }
 
 #card {
-    width: 60%;
+    max-width: 40%;
+    margin: 20px;
+    position: relative;
+    right: 10px;
+}
+
+.card-img-top {
+    max-width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+#save_value {
+    border-radius: .25rem;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+#drink {
+    border-radius: .25rem;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
 }

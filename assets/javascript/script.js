@@ -11,7 +11,7 @@ console.log(inputVal)
 function getRecipe() {
 
     var foodSelection = $("input[name=selector]:checked").val();
-    var queryURLrec = "https://api.edamam.com/search?q=" + foodSelection + "&app_id=$" + id + "&app_key=$" + key + "&from=0&to=3";
+    var queryURLrec = "https://api.edamam.com/search?q=" + foodSelection + "&app_id=$" + id + "&app_key=$" + key + "&from=0&to=30";
 
     $.ajax({
         type: "GET",
@@ -32,6 +32,7 @@ function getRecipe() {
 
         $(".card-img-top").attr("src", response.hits[0].recipe.image);
         $("#recipieLink").attr("href", response.hits[0].recipe.url);
+        $(".card").css("border", "1px solid black");
     });
 }
 
