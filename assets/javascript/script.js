@@ -8,6 +8,7 @@ console.log(inputVal)
 
 function getDrink() {
     var drinkSelection = $("input[name=selector]:checked").val();
+    console.log(drinkSelection);
     var queryURLdrink = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=" + drinkSelection;
 
     $.ajax({
@@ -17,23 +18,12 @@ function getDrink() {
         console.log(queryURLdrink);
         console.log(response);
         $(".drinkCard").attr("class", "drinkCard");
-        //$(".card-title").html(response.hits[0].recipe.label);
-        // var list = $("<ul>")
-        // $(".card-text").append(list)
-
-        // for (var i=0; i < response.hits[0].recipe.ingredientLines.length; i++) {
-        //     var item = $("<li>")
-        //     item.html(response.hits[0].recipe.ingredientLines[i]);
-        //     list.append(item)
-        // }
-
-        // $(".card-img-top").attr("src", response.hits[0].recipe.image);
+        $(".drinkCard-title").html(response.drinks[0].strDrink);
+        $(".drinkCard-img-top").attr("src", response.drinks[0].strDrinkThumb);
         // $("#recipieLink").attr("href", response.hits[0].recipe.url);
     });
 
 }
-
-
 
 
 function getRecipe() {
@@ -49,6 +39,7 @@ function getRecipe() {
         console.log(response);
         $(".card").attr("class", "card");
         $(".card-title").html(response.hits[0].recipe.label);
+        $(".card-text").empty();
         var list = $("<ul>")
         $(".card-text").append(list)
 
@@ -71,4 +62,29 @@ $(function(){
     });
   });
 
+  $(function(){
+    $('#save_drink').click(function(){
+        getDrink();
+    });
+  });
+
+  var audioElement = document.createElement("audio");
+  audioElement.setAttribute("src", "assets/audio/munch.mp3");
+
+  $("#save_value").on("click", function () {
+    audioElement.play();
+  });
   
+  var audioElement2 = document.createElement("audio");
+  audioElement2.setAttribute("src", "assets/audio/gulp.mp3");
+
+  $("#save_drink").on("click", function () {
+    audioElement2.play();
+  });
+
+//   $(function() {
+//     $("#save_value").on("click", function() {
+//         $("body").animate({"scrollTop": window.scrollY+300}, 1000);
+//         return false;
+//     });
+// }); 

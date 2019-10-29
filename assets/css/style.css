@@ -56,7 +56,7 @@ body {
 
 #card {
     max-width: 40%;
-    margin: 20px;
+    margin-top: 20px;
     position: relative;
     right: 10px;
 }
@@ -67,6 +67,12 @@ body {
     left: 20%;
 }
 
+.drinkCard-img-top {
+    max-width: 60%;
+    position: relative;
+    left: 20%; 
+}
+
 #save_value {
     border-radius: .25rem;
     background-color: #007bff;
@@ -74,9 +80,20 @@ body {
     color: white;
 }
 
-#drink {
+#save_drink {
     border-radius: .25rem;
     background-color: #007bff;
     border-color: #007bff;
     color: white;
+}
+
+#drinkCard {
+    max-width: 40%;
+    margin-top: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.col-lg-9 {
+    animation-delay: 3s;
 }
