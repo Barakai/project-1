@@ -3,7 +3,35 @@ var key = "307500e630ab60f1ee06b7febaaada1a"
 var inputVal = []
 console.log(inputVal)
 
+//var keyDrink = "2a691620d5msh4e8a5c039b25ddbp18b31cjsnee98b7bab1cf"
 
+
+function getDrink() {
+    var drinkSelection = $("input[name=selector]:checked").val();
+    var queryURLdrink = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=" + drinkSelection;
+
+    $.ajax({
+        type: "GET",
+        url: queryURLdrink,
+    }).then(function(response) {
+        console.log(queryURLdrink);
+        console.log(response);
+        $(".drinkCard").attr("class", "drinkCard");
+        //$(".card-title").html(response.hits[0].recipe.label);
+        // var list = $("<ul>")
+        // $(".card-text").append(list)
+
+        // for (var i=0; i < response.hits[0].recipe.ingredientLines.length; i++) {
+        //     var item = $("<li>")
+        //     item.html(response.hits[0].recipe.ingredientLines[i]);
+        //     list.append(item)
+        // }
+
+        // $(".card-img-top").attr("src", response.hits[0].recipe.image);
+        // $("#recipieLink").attr("href", response.hits[0].recipe.url);
+    });
+
+}
 
 
 

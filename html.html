@@ -13,41 +13,60 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
    <link rel="stylesheet" href="assets/css/style.css">
-   <title>Fresh Food Catchy Name</title>
+   <title>Global Eats</title>
 </head>
 <body>
    <nav class="navbar navbar-dark bg-dark fixed top">
            <a class="navbar-brand" href="#">Fresh Foods</a>
    </nav>
    <div class="jumbotron jumbotron-fluid">
-       <h1 class="display-4">Dinèr International</h1>
+       <h1 class="display-4">Global Eats</h1>
    </div>
    <div class="container">
         <div class="row" >
             <div class = "col-lg-5 " id="foodborder"><h3 class="selections">Food</h3>
                 <input name="selector" id="ad_Checkbox1" class="ads_Checkbox" type="radio" value="chinese" />
                 <label class="form-check-label">Chinese</label>
-                <br>
+                  <br>
                 <input name="selector" id="ad_Checkbox2" class="ads_Checkbox" type="radio" value="indian" />
                 <label class="form-check-label">Indian</label>
-                <br>
+                  <br>
                 <input name="selector" id="ad_Checkbox3" class="ads_Checkbox" type="radio" value="mexican" />
                 <label class="form-check-label">Mexican</label>
-                <br>
+                  <br>
                 <input name="selector" id="ad_Checkbox4" class="ads_Checkbox" type="radio" value="italian" />
                 <label class="form-check-label">Italian</label>
-                <br>
+                  <br>
                 <input name="selector" id="ad_Checkbox5" class="ads_Checkbox" type="radio" value="american" />
                 <label class="form-check-label">American</label>
-                <br>
-                <br>
-                <input type="button" id="save_value" name="save_value" value="Get Recipie" />
+                  <br>
+                  <br>
+                <input type="button" id="save_value" name="save_value" value="Get Recipe" />
             </div>
+
             <div class="col-lg-2"></div>
+
             <div class = "col-lg-5 " id="drinkborder">
                 <h3 class="selections">Drink</h3>
-                    <button id="drink">Click Me For A Nice Little Cocktail</button>
+                <input name="selector" id="ad_Checkbox1" class="ads_Checkbox" type="radio" value="vodka" />
+                <label class="form-check-label">Vodka</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox2" class="ads_Checkbox" type="radio" value="tequila" />
+                <label class="form-check-label">Tequila</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox3" class="ads_Checkbox" type="radio" value="rum" />
+                <label class="form-check-label">Rum</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox4" class="ads_Checkbox" type="radio" value="scotch" />
+                <label class="form-check-label">Scotch</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox5" class="ads_Checkbox" type="radio" value="gin" />
+                <label class="form-check-label">Gin</label>
+                  <br>
+                  <br>
+                <input type="button" id="save_drink" name="save_drink" value="Get Cocktail" />
             </div>
         </div>
         <div class="row">
@@ -57,13 +76,25 @@
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary" id="recipieLink">Visit the Recipie Page</a>
+                        <a href="#" class="btn btn-primary" id="recipieLink">Click here for recipe</a>
                         </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3"></div>
+        </div>
 
+        <div class="row">
+            <div class="col-lg-9" id="card">
+                <div class="drinkCard remove">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="drinkCard-body">
+                        <h5 class="drinkCard-title">Card title</h5>
+                        <p class="drinkCard-text"></p>
+                        <a href="#" class="btn btn-primary" id="drinkRecipe">Click here for recipe</a>
+                        </div>
                 </div>
+            </div>
+            <div class="col-lg-3"></div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
