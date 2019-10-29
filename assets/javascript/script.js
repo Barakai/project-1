@@ -35,6 +35,8 @@ function getRecipe() {
         type: "GET",
         url: queryURLrec,
     }).then(function(response) {
+        console.log("animate");
+        $("html, body").animate({ scrollTop: "1800px" }, 5000);
         console.log(queryURLrec);
         console.log(response);
         $(".card").attr("class", "card");
@@ -52,6 +54,7 @@ function getRecipe() {
         $(".card-img-top").attr("src", response.hits[0].recipe.image);
         $("#recipieLink").attr("href", response.hits[0].recipe.url);
         $(".card").css("border", "1px solid black");
+      
     });
 }
 
