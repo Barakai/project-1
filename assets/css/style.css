@@ -35,7 +35,7 @@ body {
 }
 
 #foodborder {
-    border: 1px solid gray;
+    border: 2px solid gray;
     border-radius: 15px;
     padding: 20px;
     width: 30%;
@@ -43,7 +43,7 @@ body {
 }
 
 #drinkborder {
-    border: 1px solid gray;
+    border: 2px solid gray;
     border-radius: 15px;
     padding: 20px;
     width: 30%;
