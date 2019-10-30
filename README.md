@@ -4,7 +4,7 @@ You will find a webpage that will provide the user the ability to choose a recip
 
 Below you will find an image and gif of our webpage.
 
-![Sample of page](../images/capture.png)
+![Sample of page](assets/images/capture.PNG)
 
 
-![Example of the Page.](../images/examplegif.gif)
+![Example of the Page.](assets/images/example.GIF)
