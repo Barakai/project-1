@@ -36,7 +36,7 @@ function getRecipe() {
         url: queryURLrec,
     }).then(function(response) {
         console.log("animate");
-        $("html, body").animate({ scrollTop: "1800px" }, 5000);
+        $("html, body").animate({ scrollTop: "1800px" }, 2000);
         console.log(queryURLrec);
         console.log(response);
         $(".card").attr("class", "card");
