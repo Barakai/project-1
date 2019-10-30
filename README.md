@@ -7,4 +7,4 @@ Below you will find an image and gif of our webpage.
 ![Sample of page](assets/images/capture.PNG)
 
 
-![Example of the Page.](./assets/images/example.GIF)
+![Example of the Page.](https://media.giphy.com/media/Sx9Pe6G6NmzhVnQ0K9/giphy.gif)
