@@ -14,6 +14,7 @@ function getDrink() {
         type: "GET",
         url: queryURLdrink,
     }).then(function(response) {
+        $("html, body").animate({ scrollTop: "1800px" }, 2000);
         console.log(queryURLdrink);
         console.log(response);
         $(".drinkCard").attr("class", "drinkCard");

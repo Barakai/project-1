@@ -91,13 +91,13 @@ body {
     color: white;
 }
 
-#drinkCard {
-    max-width: 40%;
+.drinkCard {
+    max-width: 80%;
     margin-top: 20px;
     position: relative;
     left: 10px;
 }
 
-.col-lg-9 {
-    animation-delay: 3s;
+.display-4 {
+    animation-delay: 1s;
 }
