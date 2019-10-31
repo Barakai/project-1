@@ -14,7 +14,7 @@ function getDrink() {
         type: "GET",
         url: queryURLdrink,
     }).then(function(response) {
-        $("html, body").animate({ scrollTop: "1800px" }, 2000);
+        $("html, body").animate({ scrollTop: "700px" }, 1000);
         console.log(queryURLdrink);
         console.log(response);
         $(".drinkCard").attr("class", "drinkCard");
@@ -76,7 +76,7 @@ function getRecipe() {
         url: queryURLrec,
     }).then(function(response) {
         console.log("animate");
-        $("html, body").animate({ scrollTop: "1800px" }, 2000);
+        $("html, body").animate({ scrollTop: "700px" }, 1000);
         console.log(queryURLrec);
         console.log(response);
         $(".card").attr("class", "card");
@@ -126,10 +126,3 @@ $(function(){
   $("#save_drink").on("click", function () {
     audioElement2.play();
   });
-
-//   $(function() {
-//     $("#save_value").on("click", function() {
-//         $("body").animate({"scrollTop": window.scrollY+300}, 1000);
-//         return false;
-//     });
-// }); 

@@ -7,11 +7,12 @@
 }
 
 .jumbotron {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/dining\ table.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/image.png");
     background-repeat: no-repeat;
     background-size: auto;
     z-index: 0;
     height: 300px;
+    background-position: 25%, 0, 0, 0;
 }
 
 .display-4 {
@@ -20,7 +21,7 @@
     text-align: center;
     margin: 0 auto;
     font-size: 100px;
-    top: 55px;
+    top: 20px;
     position: relative;
     font-style: italic;
 }
@@ -28,29 +29,35 @@
 .selections {
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    color: whitesmoke;
+    color: white;
+    font-size: 50px;
+}
+
+.form-check-label {
+    color: white;
+    font-family: 'Indie Flower', cursive;
 }
 
 body {
-    background-image: linear-gradient(rgba(31, 31, 31, 0.7), rgba(122, 118, 118, 0.7)), url("../images/woodgrain.jpg");
-    background-repeat: repeat;
-    background-size: inherit;
+    background-image: linear-gradient(rgba(75, 74, 74, 0.5), rgba(75, 74, 74, 0.5)), url("../images/dark_wood.png");
 }
 
 #foodborder {
     border: 2px solid black;
     border-radius: 15px;
     padding: 20px;
-    width: 30%;
+    width: 100%;
     float: left;
+    background-image: url("../images/chalk.png");
 }
 
 #drinkborder {
     border: 2px solid black;
     border-radius: 15px;
     padding: 20px;
-    width: 30%;
+    width: 100%;
     float: right;
+    background-image: url("../images/chalk.png");
 }
 
 .remove {
@@ -58,41 +65,40 @@ body {
 }
 
 #card {
-    max-width: 40%;
+    max-width: 100%;
     margin-top: 20px;
     position: relative;
     right: 10px;
 }
 
 .card-img-top {
-    max-width: 60%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
     position: relative;
-    left: 20%;
 }
 
 .drinkCard-img-top {
-    max-width: 60%;
-    margin-top: 20px;
+    max-width: 100%;
     position: relative;
-    left: 20%; 
 }
 
 #save_value {
     border-radius: .25rem;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #6b992f;;
+    border-color: #6b992f;;
     color: white;
 }
 
 #save_drink {
     border-radius: .25rem;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #6b992f;
+    border-color: #6b992f;
     color: white;
 }
 
 .drinkCard {
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 20px;
     position: relative;
     left: 10px;
