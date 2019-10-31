@@ -43,8 +43,10 @@ function getDrink() {
         }).then(function(response) {
             console.log(queryURLid);
             console.log(response);
-            var list = $("<ul>")
-            $(".drinkCard-text").append(list)
+            $(".drinkCard-text").empty();
+            var list = $("<ul>");
+            $(".drinkCard-text").append(list);
+            
 
 
             for (var i = 1; i < 16; i++) {
@@ -55,16 +57,12 @@ function getDrink() {
                     item.html(unit + " " + ingredient);
                     list.append(item)
                 }
-    
-              
-
             }
+            var p = $("<p>");
+            p.html("<h5>Instructions:</h5> \n" + response.drinks[0].strInstructions);
+            $(".drinkCard-text").append(p);
         });
     });
-
-    
-   
-
 }
 
 
