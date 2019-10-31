@@ -15,12 +15,23 @@ function getDrink() {
         type: "GET",
         url: queryURLdrink,
     }).then(function(response) {
+        $("html, body").animate({ scrollTop: "1800px" }, 2000);
         console.log(queryURLdrink);
         console.log(response);
         $(".drinkCard").attr("class", "drinkCard");
         $(".drinkCard-title").html(response.drinks[0].strDrink);
         $(".drinkCard-img-top").attr("src", response.drinks[0].strDrinkThumb);
         // $("#recipieLink").attr("href", response.hits[0].recipe.url);
+        $(".drinkCard").css("border", "1px solid black");
+        $(".drinkCard").css("border-radius", ".25rem");
+        $(".drinkCard").css("border", "1px solid rgba(0,0,0,.125)");
+        $(".drinkCard").css("background-color", "#fff");
+        $(".drinkCard").css("display", "flex");
+        $(".drinkCard").css("background-clip", "border-box");
+        $(".drinkCard").css("word-wrap", "break-word");
+        $(".drinkCard").css("flex-direction", "column");
+        $(".drinkCard").css("border", "1px solid black");
+        $(".drinkCard").css("padding", "20px");
     });
 
 }
