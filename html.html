@@ -4,7 +4,11 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!--Bootstrap CDN-->
    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!--Fonts, icons, animations, and styling links-->
    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -15,15 +19,22 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
    <link rel="stylesheet" href="assets/css/style.css">
+
+   <!--Application title-->
    <title>Global Eats</title>
 </head>
 
 <body>
+  <!--Jumbotron with animation-->
    <div class="jumbotron jumbotron-fluid">
        <h1 class="display-4 animated tada">Global Eats</h1>
    </div>
+
+   <!--Bootstrap container and rows-->
    <div class="container">
         <div class="row" >
+
+          <!--Food radio buttons-->
             <div class = "col-lg-5 " id="foodborder"><h3 class="selections">Food</h3>
                 <input name="selector" id="ad_Checkbox1" class="ads_Checkbox" type="radio" value="chinese" />
                 <label class="form-check-label">Chinese</label>
@@ -41,11 +52,15 @@
                 <label class="form-check-label">American</label>
                   <br>
                   <br>
+
+                  <!--"Get Recipe" buttons-->
                 <input type="button" id="save_value" name="save_value" value="Get Recipe" />
             </div>
 
+            <!--Empty div-->
             <div class="col-lg-2"></div>
 
+            <!--Drink radio buttons-->
             <div class = "col-lg-5 " id="drinkborder">
                 <h3 class="selections">Drink</h3>
                 <input name="selector" id="ad_Checkbox1" class="ads_Checkbox" type="radio" value="vodka" />
@@ -64,12 +79,15 @@
                 <label class="form-check-label">Gin</label>
                   <br>
                   <br>
+
+                  <!--"Get Cocktail" buttons-->
                 <input type="button" id="save_drink" name="save_drink" value="Get Cocktail" />
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-5" id="card">
+              <!--Recipe card displaying food name, ingredients, image, and link to recipe-->
                 <div class="card remove">
                         <img src="..." class="card-img-top" alt="Prepared Food">
                         <div class="card-body">
@@ -80,8 +98,10 @@
                 </div>
             </div>
 
+            <!--Empty div-->
             <div class="col-lg-2"></div>
 
+            <!--Drink recipe card displaying the cocktail name, image, units of measure, and ingredients-->
             <div class="col-lg-5" id="drinkcard">
                 <div class="drinkCard remove">
                         <img src="..." class="drinkCard-img-top" alt="Cocktail">
@@ -95,6 +115,7 @@
         </div>
     </div>
     
+    <!--Linking jquery and script file-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="assets/javascript/script.js"></script>
 </body>
