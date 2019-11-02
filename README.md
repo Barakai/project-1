@@ -43,6 +43,4 @@ As a busy professional, working full-time while going to school in the evenings,
 Sample of page:
 ![Sample of page](assets/images/capture.PNG)
 
-Exapmple of page in gif form:
-
-![Example of the Page.](https://media.giphy.com/media/Sx9Pe6G6NmzhVnQ0K9/giphy.gif)
+![Rendering of Recipes](assets/images/capture-1.PNG)

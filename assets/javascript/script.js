@@ -85,7 +85,7 @@ function getRecipe() {
     var foodSelection = $("input[name=selector]:checked").val();
 
     //Recipe URL with user specified cuisine selection//
-    var queryURLrec = "https://api.edamam.com/search?q=" + foodSelection + "&app_id=$" + id + "&app_key=$" + key + "&from=0&to=30";
+    var queryURLrec = "https://api.edamam.com/search?q=" + foodSelection + "&app_id=$" + id + "&app_key=$" + key + "&from=0&to=50";
 
     //AJAX call getting each recipe ingredient list and link to the actual recipe//
     $.ajax({
