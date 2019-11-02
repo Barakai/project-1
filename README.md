@@ -10,16 +10,23 @@ Global Eats is a quick and easy way to find unique food and drink recipes from d
 As a busy professional, working full-time while going to school in the evenings, I find myself strapped for time yet I still enjoy cooking myself a unique meal and pouring myself a fun cocktail in the evenings. However, due to my busy lifestyle I don’t always know what cuisine I’ll be in the mood for. I could really use an application to satisfy my whimsical palette providing me with a new meal and drink to satisfy my cravings. 
 
 ## Process
-- HTML, CSS, jQuery, AJAX, APIs (The Cocktail DB and Edamam), Animate.css
-  - Tasks and roles:
-  - Front-End: Baraka, Mohamed, Issa
-  - Back-End: Kayla, Ashley, Issa
-  - README: Issa, Ashley
-  - Presentation: Whole Team
+# Technology
+- HTML
+- CSS
+- jQuery
+- AJAX
+- APIs (The Cocktail DB and Edamam)
+- Animate.css
 
-- Challenges: 
+# Tasks and roles:
+- Front-End: Baraka, Mohamed, Issa
+- Back-End: Kayla, Ashley, Issa
+- README: Issa, Ashley
+- Presentation: Whole Team
+
+# Challenges: 
   - Getting started and determining how to divide up the work
-- Successes:
+# Successes:
   - Traversing through each API and randomizing the selections based on the users choice
 
 ## Directions for the Future
