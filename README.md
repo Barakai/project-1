@@ -4,7 +4,7 @@ This question has plagued all who have been stricken with hunger pains. But worr
 
 Global Eats is a quick and easy way to find unique food and drink recipes from different culinary backgrounds through a few simple clicks!
 
-## Concepts - User-Story
+## Concept: User-Story
 As a busy professional, working full-time while going to school in the evenings, I find myself strapped for time yet I still enjoy cooking myself a unique meal and pouring myself a fun cocktail in the evenings. However, due to my busy lifestyle I don’t always know what cuisine I’ll be in the mood for. I could really use an application to satisfy my whimsical palette providing me with a new meal and drink to satisfy my cravings. 
 
 ## Process
