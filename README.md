@@ -1,7 +1,7 @@
 # Global Eats
 
 ## Description
-Link to Application [here](https://kaykuhl.github.io/project-1/)
+Link to Application [here](https://kaykuhl.github.io/project-1/html)
 
 What should I eat?
 
