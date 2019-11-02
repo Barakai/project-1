@@ -1,5 +1,7 @@
 # Global Eats
 
+What should I eat?
+
 This question has plagued all who have been stricken with hunger pains. But worry no longer! Through our Global Eats search options, food from around the world is just a few clicks away. Feel like a world renowned chef with recipes shaped around your cravings you have at any time!
 
 Global Eats is a quick and easy way to find unique food and drink recipes from different culinary backgrounds through a few simple clicks!
