@@ -1,5 +1,8 @@
 # Global Eats
 
+## Description
+Link to Application [here](https://kaykuhl.github.io/project-1/)
+
 What should I eat?
 
 This question has plagued all who have been stricken with hunger pains. But worry no longer! Through our Global Eats search options, food from around the world is just a few clicks away. Feel like a world renowned chef with recipes shaped around your cravings you have at any time!
@@ -26,6 +29,7 @@ As a busy professional, working full-time while going to school in the evenings,
 
 #### Challenges: 
   - Getting started and determining how to divide up the work
+
 #### Successes:
   - Traversing through each API and randomizing the selections based on the users choice
 
@@ -42,5 +46,3 @@ As a busy professional, working full-time while going to school in the evenings,
 
 Sample of page:
 ![Sample of page](assets/images/capture.PNG)
-
-![Rendering of Recipes](assets/images/capture-1.PNG)
