@@ -1,6 +1,6 @@
 //Global variables//
-var id = "2c4dbd7e"
-var key = "307500e630ab60f1ee06b7febaaada1a"
+var id = "c1209f71"
+var key = "bfada42bc6c1d17e1c160975a2313f78"
 var inputVal = []
 console.log(inputVal)
 
@@ -85,7 +85,7 @@ function getRecipe() {
     var foodSelection = $("input[name=selector]:checked").val();
 
     //Recipe URL with user specified cuisine selection//
-    var queryURLrec = "https://api.edamam.com/search?q=" + foodSelection + "&app_id=$" + id + "&app_key=$" + key + "&from=0&to=50";
+    var queryURLrec = "https://api.edamam.com/search?q=" + foodSelection + "&app_id=" + id + "&app_key=" + key + "&from=0&to=50";
 
     //AJAX call getting each recipe ingredient list and link to the actual recipe//
     $.ajax({
